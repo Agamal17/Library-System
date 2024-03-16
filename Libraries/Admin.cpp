@@ -1,4 +1,4 @@
-#include "Admin.h"
+#include "../Headers/Admin.h"
 
 Admin::Admin(string &name, string& username, string& password) {
     setName(name);

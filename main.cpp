@@ -1,8 +1,8 @@
-#include "User.h"
-#include "Admin.h"
-#include "Customer.h"
-#include "Book.h"
-#include "Library.h"
+#include "Headers/User.h"
+#include "Headers/Admin.h"
+#include "Headers/Customer.h"
+#include "Headers/Book.h"
+#include "Headers/Library.h"
 
 template<class T>
 int findbyID(int id,T *ids,int s)
